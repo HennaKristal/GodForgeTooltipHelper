@@ -131,6 +131,10 @@ const GodForgeEffects = {
         type: "buff",
         description: "If the hero is defeated, revives them with 50% HP and 50% turn meter. Buff is removed upon activation"
     },
+    "Revive": {
+        type: "action",
+        description: "Revives a defeated ally."
+    },
     "Precision": {
         type: "buff",
         description: "Guarantees attacks are Crushing Hits"

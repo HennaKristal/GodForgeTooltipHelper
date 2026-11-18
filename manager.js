@@ -8,7 +8,8 @@
     const effectTypeLabels = {
         buff: "BUFF",
         debuff: "DEBUFF",
-        disable: "DISABLE"
+        disable: "DISABLE",
+        action: "ACTION"
     };
 
     const effectSelector = "span";

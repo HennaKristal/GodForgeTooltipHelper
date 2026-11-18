@@ -44,6 +44,10 @@
     --godforge-helper-accent: #c69aff;
 }
 
+#godforge-helper-tooltip[data-type="action"] {
+    --godforge-helper-accent: #35aef9;
+}
+
 #godforge-helper-tooltip[hidden] {
     display: none !important;
 }

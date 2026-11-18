@@ -1,6 +1,6 @@
 # GodForge Tooltip Helper
 
-Adds a feature to [godforge.gg](https://godforge.gg/) website that allows you to hover over a buff, debuff, or disable to see what they do.
+Adds a feature to [godforge.gg](https://godforge.gg/) website that allows you to hover over a buff, debuff or disable to see what they do.
 
 ## Install in Chrome
 
