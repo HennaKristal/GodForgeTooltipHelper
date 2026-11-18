@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GodForgeTooltipHelper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Show helpful explanations for GodForge effects when hovering over their names.",
   "content_scripts": [
     {

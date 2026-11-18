@@ -131,10 +131,6 @@ const GodForgeEffects = {
         type: "buff",
         description: "If the hero is defeated, revives them with 50% HP and 50% turn meter. Buff is removed upon activation"
     },
-    "Revive": {
-        type: "action",
-        description: "Revives a defeated ally."
-    },
     "Precision": {
         type: "buff",
         description: "Guarantees attacks are Crushing Hits"
@@ -317,7 +313,7 @@ const GodForgeEffects = {
     },
     "Blaze": {
         type: "debuff",
-        description: "Inflicts portion of MAX HP to each hero on the team. This is doubled for the hero taking the turn"
+        description: "Inflicts 1% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Blaze I": {
         type: "debuff",
@@ -542,5 +538,9 @@ const GodForgeEffects = {
     "Taunt": {
         type: "disable",
         description: "Forces this hero to attack the enemy that placed Taunt using their Basic Ability, inflicting 25% reduced damage"
+    },
+    "Revive": {
+        type: "action",
+        description: "Revives a defeated ally."
     },
 };
