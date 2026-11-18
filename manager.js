@@ -13,6 +13,7 @@
     };
 
     const effectSelector = "span";
+    const headingSelector = ".type-heading, h1, h2, h3, h4, h5, h6, [role='heading']";
     const effectClass = "godforge-helper-effect";
     const tooltipId = "godforge-helper-tooltip";
     const tooltipGap = 10;
@@ -37,7 +38,11 @@
 
     function getEffect(element) {
         const name = element.textContent.trim().toLowerCase();
-        return effectDescriptions.get(name);
+        const effect = effectDescriptions.get(name);
+        if (!effect || element.closest(headingSelector) || element.querySelector(headingSelector)) {
+            return null;
+        }
+        return effect;
     }
 
     function positionTooltip() {
