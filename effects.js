@@ -21,7 +21,7 @@ const GodForgeEffects = {
     },
     "Arcane Aegis": {
         type: "buff",
-        description: "Reduce Divinity Reductions multiplicatively per stack. Stacks are removed at the end of the hero's turn"
+        description: "Reduce Divinity Reductions by 5%-25% multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Arcane Aegis I": {
         type: "buff",
@@ -151,9 +151,9 @@ const GodForgeEffects = {
         type: "buff",
         description: "Transfers 60% of the damage this unit would receive to the hero who placed this buff"
     },
-    "Radiance I": {
+    "Radiance": {
         type: "buff",
-        description: "Reduces damage received and reflects the reduced damage back to the attacker"
+        description: "Reduces damage received by 10%-30% and reflects the reduced damage back to the attacker"
     },
     "Radiance I": {
         type: "buff",
@@ -233,7 +233,7 @@ const GodForgeEffects = {
     },
     "Temporal Aegis": {
         type: "buff",
-        description: "Reduce Turn Meter Reductions multiplicatively per stack. Stacks are removed at the end of the hero's turn"
+        description: "Reduce Turn Meter Reductions by 5%-25% multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Temporal Aegis I": {
         type: "buff",
@@ -313,7 +313,7 @@ const GodForgeEffects = {
     },
     "Blaze": {
         type: "debuff",
-        description: "Inflicts 1% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
+        description: "Inflicts 1-3% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Blaze I": {
         type: "debuff",
@@ -397,7 +397,7 @@ const GodForgeEffects = {
     },
     "Drain": {
         type: "debuff",
-        description: "This hero receives increased damage and attackers Heal for some of the damage inflicted"
+        description: "This hero receives 10%-30% increased damage and attackers Heal for 10%-30% of the damage inflicted"
     },
     "Drain I": {
         type: "debuff",
@@ -429,7 +429,7 @@ const GodForgeEffects = {
     },
     "Hex": {
         type: "debuff",
-        description: "Allies receive some of damage inflicted to this hero. The damage is halved for AoE attacks"
+        description: "Allies receive 5%-15% of damage inflicted to this hero. The damage is halved for AoE attacks"
     },
     "Hex I": {
         type: "debuff",
