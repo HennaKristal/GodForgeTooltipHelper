@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GodForgeTooltipHelper",
+  "version": "1.0.0",
+  "description": "Show helpful explanations for GodForge effects when hovering over their names.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://godforge.gg/*",
+        "https://*.godforge.gg/*"
+      ],
+      "js": [
+        "effects.js",
+        "manager.js"
+      ],
+      "css": [
+        "tooltip.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
