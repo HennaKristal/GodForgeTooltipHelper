@@ -105,19 +105,19 @@ const GodForgeEffects = {
     },
     "Gluttony": {
         type: "buff",
-        description: "For every stack, -5% damage received and +5% FTH. Does not expire and cannot be removed by normal buff removal effects."
+        description: "For every stack, -5% damage received and +5% FTH. Does not expire and cannot be removed by normal buff removal effects"
     },
     "Immortal": {
         type: "buff",
-        description: "Prevents a Hero from being defeated, keeping them on 1 HP. Duration is reduced on activation."
+        description: "Prevents a Hero from being defeated, keeping them on 1 HP. Duration is reduced on activation"
     },
     "Immune": {
         type: "buff",
-        description: "This hero is immune to all negative effects."
+        description: "This hero is immune to all negative effects"
     },
     "Intercept": {
         type: "buff",
-        description: "Redirects an attack to the hero that placed Intercept. Duration is reduced when activated."
+        description: "Redirects an attack to the hero that placed Intercept. Duration is reduced when activated"
     },
     "Mend": {
         type: "buff",
@@ -125,11 +125,11 @@ const GodForgeEffects = {
     },
     "Mirror": {
         type: "buff",
-        description: "Mirrors or copies an effect."
+        description: "Mirrors or copies an effect"
     },
     "Phoenix": {
         type: "buff",
-        description: "If the hero is defeated, revives them with 50% HP and 50% turn meter. Buff is removed upon activation."
+        description: "If the hero is defeated, revives them with 50% HP and 50% turn meter. Buff is removed upon activation"
     },
     "Precision": {
         type: "buff",
@@ -137,35 +137,35 @@ const GodForgeEffects = {
     },
     "Protect": {
         type: "buff",
-        description: "Transfers portion of the damage this unit would receive to the hero who placed this buff."
+        description: "Transfers portion of the damage this unit would receive to the hero who placed this buff"
     },
     "Protect I": {
         type: "buff",
-        description: "Transfers 20% of the damage this unit would receive to the hero who placed this buff."
+        description: "Transfers 20% of the damage this unit would receive to the hero who placed this buff"
     },
     "Protect II": {
         type: "buff",
-        description: "Transfers 40% of the damage this unit would receive to the hero who placed this buff."
+        description: "Transfers 40% of the damage this unit would receive to the hero who placed this buff"
     },
     "Protect III": {
         type: "buff",
-        description: "Transfers 60% of the damage this unit would receive to the hero who placed this buff."
+        description: "Transfers 60% of the damage this unit would receive to the hero who placed this buff"
     },
     "Radiance I": {
         type: "buff",
-        description: "Reduces damage received and reflects the reduced damage back to the attacker."
+        description: "Reduces damage received and reflects the reduced damage back to the attacker"
     },
     "Radiance I": {
         type: "buff",
-        description: "Reduces damage received by 10% and reflects the reduced damage back to the attacker."
+        description: "Reduces damage received by 10% and reflects the reduced damage back to the attacker"
     },
     "Radiance II": {
         type: "buff",
-        description: "Reduces damage received by 20% and reflects the reduced damage back to the attacker."
+        description: "Reduces damage received by 20% and reflects the reduced damage back to the attacker"
     },
     "Radiance III": {
         type: "buff",
-        description: "Reduces damage received by 30% and reflects the reduced damage back to the attacker."
+        description: "Reduces damage received by 30% and reflects the reduced damage back to the attacker"
     },
     "RES Up": {
         type: "buff",
@@ -185,11 +185,11 @@ const GodForgeEffects = {
     },
     "Retaliate": {
         type: "buff",
-        description: "When an enemy attacks this hero, they retaliate with their Basic Ability."
+        description: "When an enemy attacks this hero, they retaliate with their Basic Ability"
     },
     "Ricochet": {
         type: "buff",
-        description: "Attacks a random target, then continues chaining to new targets. Each attack has a lower chance to occur."
+        description: "Attacks a random target, then continues chaining to new targets. Each attack has a lower chance to occur"
     },
     "Sharpen": {
         type: "buff",
@@ -209,7 +209,7 @@ const GodForgeEffects = {
     },
     "Shield": {
         type: "buff",
-        description: "Absorbs incoming damage equal to the strength of the shield before depleting HP. Shields cannot stack or be increased."
+        description: "Absorbs incoming damage equal to the strength of the shield before depleting HP. Shields cannot stack or be increased"
     },
     "SPD Up": {
         type: "buff",
@@ -229,31 +229,31 @@ const GodForgeEffects = {
     },
     "Stalwart": {
         type: "buff",
-        description: "This hero is immune to Disables. The duration is reduced when an enemy attempts to Disable the hero. Will remove Disables when placed on this Hero."
+        description: "This hero is immune to Disables. The duration is reduced when an enemy attempts to Disable the hero. Will remove Disables when placed on this Hero"
     },
     "Temporal Aegis": {
         type: "buff",
-        description: "Reduce Turn Meter Reductions multiplicatively per stack. Stacks are removed at the end of the hero's turn."
+        description: "Reduce Turn Meter Reductions multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Temporal Aegis I": {
         type: "buff",
-        description: "Reduce Turn Meter Reductions by 5% multiplicatively per stack. Stacks are removed at the end of the hero's turn."
+        description: "Reduce Turn Meter Reductions by 5% multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Temporal Aegis II": {
         type: "buff",
-        description: "Reduce Turn Meter Reductions by 15% multiplicatively per stack. Stacks are removed at the end of the hero's turn."
+        description: "Reduce Turn Meter Reductions by 15% multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Temporal Aegis III": {
         type: "buff",
-        description: "Reduce Turn Meter Reductions by 25% multiplicatively per stack. Stacks are removed at the end of the hero's turn."
+        description: "Reduce Turn Meter Reductions by 25% multiplicatively per stack. Stacks are removed at the end of the hero's turn"
     },
     "Vanish": {
         type: "buff",
-        description: "Cannot be directly targeted with attacks."
+        description: "Cannot be directly targeted with attacks"
     },
     "Ward": {
         type: "buff",
-        description: "Reduces damage received by 100%. Duration is reduced when triggered by an attack."
+        description: "Reduces damage received by 100%. Duration is reduced when triggered by an attack"
     },
     "ACC Down": {
         type: "debuff",
@@ -277,19 +277,19 @@ const GodForgeEffects = {
     },
     "Aetherburn": {
         type: "debuff",
-        description: "Increases Weak Hit Chance and reduces the Divinity of all allied heroes. Does not reduce Boss Divinity."
+        description: "Increases Weak Hit Chance and reduces the Divinity of all allied heroes. Does not reduce Boss Divinity"
     },
     "Aetherburn I": {
         type: "debuff",
-        description: "Increases Weak Hit Chance by 5% and reduces the Divinity of all allied heroes by 3%. Does not reduce Boss Divinity."
+        description: "Increases Weak Hit Chance by 5% and reduces the Divinity of all allied heroes by 3%. Does not reduce Boss Divinity"
     },
     "Aetherburn II": {
         type: "debuff",
-        description: "Increases Weak Hit Chance by 10% and reduces the Divinity of all allied heroes by 6%. Does not reduce Boss Divinity."
+        description: "Increases Weak Hit Chance by 10% and reduces the Divinity of all allied heroes by 6%. Does not reduce Boss Divinity"
     },
     "Aetherburn III": {
         type: "debuff",
-        description: "Increases Weak Hit Chance by 15% and reduces the Divinity of all allied heroes by 9%. Does not reduce Boss Divinity."
+        description: "Increases Weak Hit Chance by 15% and reduces the Divinity of all allied heroes by 9%. Does not reduce Boss Divinity"
     },
     "ATK Down": {
         type: "debuff",
@@ -309,31 +309,31 @@ const GodForgeEffects = {
     },
     "Banish": {
         type: "debuff",
-        description: "Enemies defeated with this debuff cannot be revived whilst this is on. When a revive occurs, the duration of this debuff is reduced."
+        description: "Enemies defeated with this debuff cannot be revived whilst this is on. When a revive occurs, the duration of this debuff is reduced"
     },
     "Blaze": {
         type: "debuff",
-        description: "Inflicts portion of MAX HP to each hero on the team. This is doubled for the hero taking the turn."
+        description: "Inflicts portion of MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Blaze I": {
         type: "debuff",
-        description: "Inflicts 1% MAX HP to each hero on the team. This is doubled for the hero taking the turn."
+        description: "Inflicts 1% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Blaze II": {
         type: "debuff",
-        description: "Inflicts 2% MAX HP to each hero on the team. This is doubled for the hero taking the turn."
+        description: "Inflicts 2% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Blaze III": {
         type: "debuff",
-        description: "Inflicts 3% MAX HP to each hero on the team. This is doubled for the hero taking the turn."
+        description: "Inflicts 3% MAX HP to each hero on the team. This is doubled for the hero taking the turn"
     },
     "Bleed": {
         type: "debuff",
-        description: "Inflicts 1% of MAX HP Damage at the start of the hero's turn. Stacks up to 10 times. Cannot be removed or reduced by abilities."
+        description: "Inflicts 1% of MAX HP Damage at the start of the hero's turn. Stacks up to 10 times. Cannot be removed or reduced by abilities"
     },
     "Block Revive": {
         type: "debuff",
-        description: "Enemies defeated with this debuff cannot be revived."
+        description: "Enemies defeated with this debuff cannot be revived"
     },
     "Blunt": {
         type: "debuff",
@@ -353,11 +353,11 @@ const GodForgeEffects = {
     },
     "Charm": {
         type: "debuff",
-        description: "When the hero that placed Charm is attacked, the Charmed Hero will receive the attack instead. Will not activate if this hero attacks the enemy that placed the Charm. Only one Charm can be active on a team at any time."
+        description: "When the hero that placed Charm is attacked, the Charmed Hero will receive the attack instead. Will not activate if this hero attacks the enemy that placed the Charm. Only one Charm can be active on a team at any time"
     },
     "Corrupt": {
         type: "debuff",
-        description: "The hero that placed this debuff steals any Buff placed on the enemy. Duration reduced when triggered."
+        description: "The hero that placed this debuff steals any Buff placed on the enemy. Duration reduced when triggered"
     },
     "Curse": {
         type: "debuff",
@@ -377,7 +377,7 @@ const GodForgeEffects = {
     },
     "Dark Tidings": {
         type: "debuff",
-        description: "Each Stack decreases the damage inflicted by 5%. Stacks up to 5 times and can only be removed when this hero casts their Ultimate (when all stacks are removed). At Max Stacks, also decrease SPD and FTH by 10%."
+        description: "Each Stack decreases the damage inflicted by 5%. Stacks up to 5 times and can only be removed when this hero casts their Ultimate (when all stacks are removed). At Max Stacks, also decrease SPD and FTH by 10%"
     },
     "DEF Down": {
         type: "debuff",
@@ -429,19 +429,19 @@ const GodForgeEffects = {
     },
     "Hex": {
         type: "debuff",
-        description: "Allies receive some of damage inflicted to this hero. The damage is halved for AoE attacks."
+        description: "Allies receive some of damage inflicted to this hero. The damage is halved for AoE attacks"
     },
     "Hex I": {
         type: "debuff",
-        description: "Allies receive 5% of damage inflicted to this hero. The damage is halved for AoE attacks."
+        description: "Allies receive 5% of damage inflicted to this hero. The damage is halved for AoE attacks"
     },
     "Hex II": {
         type: "debuff",
-        description: "Allies receive 10% of damage inflicted to this hero. The damage is halved for AoE attacks."
+        description: "Allies receive 10% of damage inflicted to this hero. The damage is halved for AoE attacks"
     },
     "Hex III": {
         type: "debuff",
-        description: "Allies receive 15% of damage inflicted to this hero. The damage is halved for AoE attacks."
+        description: "Allies receive 15% of damage inflicted to this hero. The damage is halved for AoE attacks"
     },
     "Lock Core": {
         type: "debuff",
@@ -497,46 +497,46 @@ const GodForgeEffects = {
     },
     "Vulnerable I": {
         type: "debuff",
-        description: "Increases damage inflicted by debuffs by 20%."
+        description: "Increases damage inflicted by debuffs by 20%"
     },
     "Vulnerable II": {
         type: "debuff",
-        description: "Increases damage inflicted by debuffs by 40%."
+        description: "Increases damage inflicted by debuffs by 40%"
     },
     "Vulnerable III": {
         type: "debuff",
-        description: "Increases damage inflicted by debuffs by 60%."
+        description: "Increases damage inflicted by debuffs by 60%"
     },
     "Confuse": {
         type: "disable",
-        description: "This hero attacks a random ally with its basic ability on its turn, doing 75% reduced damage."
+        description: "This hero attacks a random ally with its basic ability on its turn, doing 75% reduced damage"
     },
     "Despair": {
         type: "disable",
-        description: "Prevents Buffs or Positive Effects being placed. Duration is reduced when receiving a Buff or Effect. Hero misses their next turn."
+        description: "Prevents Buffs or Positive Effects being placed. Duration is reduced when receiving a Buff or Effect. Hero misses their next turn"
     },
     "Freeze": {
         type: "disable",
-        description: "Incoming Turn Meter Fill effects are reduced by 50%. Hero misses their next turn."
+        description: "Incoming Turn Meter Fill effects are reduced by 50%. Hero misses their next turn"
     },
     "Petrify": {
         type: "disable",
-        description: "Increase Divinity Effects are Reduced by 50%. Hero misses their next turn."
+        description: "Increase Divinity Effects are Reduced by 50%. Hero misses their next turn"
     },
     "Shade": {
         type: "disable",
-        description: "Permanently removes the hero from Ally Team Control. Shades cannot be targeted or take turns and will join the Caster's Basic Attacks. When the Caster is defeated, all Shades are defeated and Shade is removed."
+        description: "Permanently removes the hero from Ally Team Control. Shades cannot be targeted or take turns and will join the Caster's Basic Attacks. When the Caster is defeated, all Shades are defeated and Shade is removed"
     },
     "Sleep": {
         type: "disable",
-        description: "The hero receives 30% increased damage from attacks. Duration is reduced when attacked. Hero misses their next turn."
+        description: "The hero receives 30% increased damage from attacks. Duration is reduced when attacked. Hero misses their next turn"
     },
     "Stun": {
         type: "disable",
-        description: "Hero misses their next turn."
+        description: "Hero misses their next turn"
     },
     "Taunt": {
         type: "disable",
-        description: "Forces this hero to attack the enemy that placed Taunt using their Basic Ability, inflicting 25% reduced damage."
+        description: "Forces this hero to attack the enemy that placed Taunt using their Basic Ability, inflicting 25% reduced damage"
     },
 };
