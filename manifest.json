@@ -9,6 +9,11 @@
         "https://godforge.gg/*",
         "https://*.godforge.gg/*"
       ],
+      "exclude_matches": [
+        "https://*.godforge.gg/duels",
+        "https://*.godforge.gg/duels?*",
+        "https://*.godforge.gg/duels/*"
+      ],
       "js": [
         "effects.js",
         "manager.js"
