@@ -4,7 +4,7 @@ Adds a feature to [godforge.gg](https://godforge.gg/) website that allows you to
 
 ## Install in Chrome
 
-1. Open the [latest GitHub release](https://github.com/HennaKristal/GodForgeTooltipHelper/releases/latest). Under **Assets**, download the extension ZIP [GodForgeTooltipHelper-v1.1.1.zip](https://github.com/HennaKristal/GodForgeTooltipHelper/releases/download/v.1.1.1/GodForgeTooltipHelper-v.1.1.1.zip).
+1. Open the [latest GitHub release](https://github.com/HennaKristal/GodForgeTooltipHelper/releases/latest). Under **Assets**, download the extension ZIP [GodForgeTooltipHelper-v1.2.0.zip](https://github.com/HennaKristal/GodForgeTooltipHelper/releases/download/v.1.2.0/GodForgeTooltipHelper-v.1.2.0.zip).
 2. Extract the ZIP to a folder you intend to keep safe.
 3. Open `chrome://extensions` in Chrome and turn on **Developer mode**.
 4. Click **Load unpacked** and select the extracted folder
