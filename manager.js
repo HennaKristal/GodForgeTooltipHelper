@@ -52,7 +52,6 @@
 
         const targetRectangle = activeElement.getBoundingClientRect();
         const tooltipRectangle = tooltip.getBoundingClientRect();
-        const availableWidth = window.innerWidth - viewportPadding * 2;
         const left = Math.max(viewportPadding, Math.min(
             targetRectangle.left, window.innerWidth - tooltipRectangle.width - viewportPadding
         ));
@@ -64,7 +63,6 @@
             ? Math.max(viewportPadding, targetRectangle.top - tooltipRectangle.height - tooltipGap)
             : Math.min(window.innerHeight - tooltipRectangle.height - viewportPadding, targetRectangle.bottom + tooltipGap);
 
-        tooltip.style.maxWidth = `${availableWidth}px`;
         tooltip.style.left = `${left}px`;
         tooltip.style.top = `${Math.max(viewportPadding, top)}px`;
     }
